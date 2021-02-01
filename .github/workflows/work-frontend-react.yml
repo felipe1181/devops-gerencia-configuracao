@@ -6,9 +6,9 @@ name: CI-Frontend-react
 on:
  # Aciona o fluxo de trabalho em eventos de solicitação push ou pull, mas apenas para o branch principal
   push:
-    branches: [ production ]
+    branches: [ master, development ]
   pull_request:
-    branches: [ production ]
+    branches: [ master, development ]
   
   # Permite que você execute este fluxo de trabalho manualmente na guia Ações
   workflow_dispatch:
